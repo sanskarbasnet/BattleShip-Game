@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.battleship.MenuController">
+   <children>
+      <Pane layoutX="573.0" layoutY="133.0" prefHeight="400.0" prefWidth="387.0" style="-fx-border-color: Black;">
+         <children>
+            <Label layoutX="2.0" layoutY="17.0" prefHeight="31.0" prefWidth="370.0" text="CONTROLS">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="3.0" layoutY="48.0" prefHeight="46.0" prefWidth="370.0" text="1) Select any ship and click mouse left click on the board to Place it!" />
+            <Label layoutX="4.0" layoutY="82.0" prefHeight="46.0" prefWidth="361.0" text="2) Right Click on any placed ship to Remove it!" />
+            <Label layoutX="4.0" layoutY="117.0" prefHeight="46.0" prefWidth="361.0" text="3) After Placing all the ship left click on any ship to Rotate it!" />
+            <Label layoutX="2.0" layoutY="179.0" prefHeight="30.0" prefWidth="370.0" text="Notes">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="5.0" layoutY="207.0" prefHeight="31.0" prefWidth="361.0" text="1) If a ship doesn't place on board, click try a different position " />
+            <Label layoutX="18.0" layoutY="238.0" prefHeight="31.0" prefWidth="170.0" text="(the placement may be invalid)" />
+            <Label layoutX="4.0" layoutY="269.0" prefHeight="31.0" prefWidth="361.0" text="2) You can't edit the ship after hitting next button" />
+            <Label layoutX="3.0" layoutY="305.0" prefHeight="31.0" prefWidth="361.0" text="3) You can only press next button after placing all your ships!" />
+         </children>
+      </Pane>
+      <Pane layoutX="421.0" layoutY="133.0" prefHeight="400.0" prefWidth="123.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="40.0" layoutX="34.0" layoutY="104.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: RED;" width="40.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="40.0" layoutX="34.0" layoutY="216.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: GREEN;" width="40.0" />
+            <Label layoutX="41.0" layoutY="154.0" prefHeight="17.0" prefWidth="32.0" text="HIT!">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="37.0" layoutY="264.0" prefHeight="20.0" prefWidth="40.0" text="MISS!">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Button layoutX="630.0" layoutY="582.0" mnemonicParsing="false" onAction="#onBack" prefHeight="109.0" prefWidth="247.0" text="Go Back">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

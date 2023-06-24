@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.battleship.FireScreenController">
+   <children>
+      <Pane fx:id="player1board" layoutX="225.0" layoutY="174.0" prefHeight="400.0" prefWidth="400.0" style="-fx-border-color: Black;" />
+      <Pane fx:id="player2board" layoutX="898.0" layoutY="174.0" prefHeight="400.0" prefWidth="400.0" style="-fx-border-color: Black;" />
+      <Label fx:id="player1Name" layoutX="225.0" layoutY="19.0" prefHeight="75.0" prefWidth="400.0" text="Label">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Label>
+      <Label fx:id="player2Name" layoutX="898.0" layoutY="19.0" prefHeight="75.0" prefWidth="400.0" text="Label">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Label>
+      <Label fx:id="player1output" layoutX="225.0" layoutY="584.0" prefHeight="90.0" prefWidth="400.0" text="Your Turn!!">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Label>
+      <Label fx:id="player2output" layoutX="898.0" layoutY="584.0" prefHeight="90.0" prefWidth="400.0">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Label>
+      <Line endX="14.00006103515625" endY="987.69287109375" layoutX="746.0" layoutY="94.0" startX="14.00006103515625" startY="-94.0" strokeWidth="5.0" />
+      <Button layoutX="314.0" layoutY="722.0" mnemonicParsing="false" onAction="#onReturn" prefHeight="54.0" prefWidth="192.0" text="Return to Main Menu">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="1005.0" layoutY="722.0" mnemonicParsing="false" onAction="#onReturn" prefHeight="54.0" prefWidth="192.0" text="Return to Main Menu">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Label layoutX="195.0" layoutY="174.0" prefHeight="40.0" prefWidth="21.0" text="1">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="195.0" layoutY="214.0" prefHeight="40.0" prefWidth="22.0" text="2" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="195.0" layoutY="254.0" prefHeight="40.0" prefWidth="22.0" text="3" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="195.0" layoutY="294.0" prefHeight="40.0" prefWidth="22.0" text="4" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="195.0" layoutY="334.0" prefHeight="40.0" prefWidth="22.0" text="5" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="195.0" layoutY="374.0" prefHeight="40.0" prefWidth="22.0" text="6" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="195.0" layoutY="414.0" prefHeight="40.0" prefWidth="22.0" text="7" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="195.0" layoutY="454.0" prefHeight="40.0" prefWidth="22.0" text="8" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="195.0" layoutY="494.0" prefHeight="40.0" prefWidth="22.0" text="9" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="195.0" layoutY="534.0" prefHeight="40.0" prefWidth="22.0" text="10" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="868.0" layoutY="175.0" prefHeight="40.0" prefWidth="21.0" text="1">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="868.0" layoutY="215.0" prefHeight="40.0" prefWidth="22.0" text="2" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="868.0" layoutY="255.0" prefHeight="40.0" prefWidth="22.0" text="3" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="868.0" layoutY="295.0" prefHeight="40.0" prefWidth="22.0" text="4" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="868.0" layoutY="335.0" prefHeight="40.0" prefWidth="22.0" text="5" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="868.0" layoutY="375.0" prefHeight="40.0" prefWidth="22.0" text="6" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="868.0" layoutY="415.0" prefHeight="40.0" prefWidth="22.0" text="7" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="868.0" layoutY="455.0" prefHeight="40.0" prefWidth="22.0" text="8" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="868.0" layoutY="495.0" prefHeight="40.0" prefWidth="22.0" text="9" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="868.0" layoutY="535.0" prefHeight="40.0" prefWidth="22.0" text="10" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="230.0" layoutY="138.0" prefHeight="26.0" prefWidth="40.0" text="A">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="270.0" layoutY="138.0" prefHeight="30.0" prefWidth="40.0" text="B" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="310.0" layoutY="138.0" prefHeight="30.0" prefWidth="40.0" text="C" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="350.0" layoutY="138.0" prefHeight="30.0" prefWidth="40.0" text="D" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="390.0" layoutY="138.0" prefHeight="30.0" prefWidth="40.0" text="E" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="430.0" layoutY="138.0" prefHeight="30.0" prefWidth="40.0" text="F" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="470.0" layoutY="138.0" prefHeight="30.0" prefWidth="40.0" text="G" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="505.0" layoutY="138.0" prefHeight="30.0" prefWidth="40.0" text="H" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="545.0" layoutY="138.0" prefHeight="30.0" prefWidth="40.0" text="I" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="585.0" layoutY="138.0" prefHeight="30.0" prefWidth="40.0" text="J" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="901.0" layoutY="139.0" prefHeight="26.0" prefWidth="40.0" text="A">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="941.0" layoutY="139.0" prefHeight="30.0" prefWidth="40.0" text="B" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="981.0" layoutY="139.0" prefHeight="30.0" prefWidth="40.0" text="C" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="1021.0" layoutY="139.0" prefHeight="30.0" prefWidth="40.0" text="D" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="1061.0" layoutY="139.0" prefHeight="30.0" prefWidth="40.0" text="E" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="1101.0" layoutY="139.0" prefHeight="30.0" prefWidth="40.0" text="F" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="1141.0" layoutY="139.0" prefHeight="30.0" prefWidth="40.0" text="G" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="1176.0" layoutY="139.0" prefHeight="30.0" prefWidth="40.0" text="H" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="1216.0" layoutY="139.0" prefHeight="30.0" prefWidth="40.0" text="I" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="1256.0" layoutY="139.0" prefHeight="30.0" prefWidth="40.0" text="J" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="230.0" layoutY="685.0" prefHeight="18.0" prefWidth="400.0" text="Press Mouse Left Click on any cell of Opponent cell to Shoot!">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="901.0" layoutY="685.0" prefHeight="20.0" prefWidth="408.0" text="Press Mouse Right Click on any cell of Opponent board to Shoot!">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Pane layoutX="37.0" layoutY="176.0" prefHeight="400.0" prefWidth="123.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="40.0" layoutX="34.0" layoutY="104.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: RED;" width="40.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="40.0" layoutX="34.0" layoutY="216.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: GREEN;" width="40.0" />
+            <Label layoutX="41.0" layoutY="154.0" prefHeight="17.0" prefWidth="32.0" text="HIT!">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="37.0" layoutY="264.0" prefHeight="20.0" prefWidth="40.0" text="MISS!">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="1358.0" layoutY="175.0" prefHeight="400.0" prefWidth="123.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="40.0" layoutX="34.0" layoutY="104.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: RED;" width="40.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="40.0" layoutX="34.0" layoutY="216.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: GREEN;" width="40.0" />
+            <Label layoutX="41.0" layoutY="154.0" prefHeight="17.0" prefWidth="32.0" text="HIT!">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="37.0" layoutY="264.0" prefHeight="20.0" prefWidth="40.0" text="MISS!">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,62 @@
+.root{
+    -fx-background-color: white;
+}
+.button{
+    -fx-background-color: transparent;
+    -fx-border-width: 1px;
+    -fx-border-color: Black;
+    -fx-cursor: pointer;
+
+}
+.button:hover{
+    -fx-background-color: #808080;
+}
+.label{
+    -fx-font: "Inder";
+    -fx-alignment: center;
+    -fx-background-color: white;
+}
+#nameTitle{
+    -fx-font-size: 80px;
+    -fx-padding: 20px;
+}
+
+#VS{
+    -fx-border-width: 0;
+    -fx-font-size: 45px;
+}
+#player2{
+    -fx-padding: 5px;
+    -fx-font-size: 25px;
+}
+.text-field{
+    -fx-font: "Inder";
+    -fx-alignment: left center;
+    -fx-background-color: white;
+    -fx-border-width: 2px;
+    -fx-font-size: 25px;
+    -fx-padding: 5px;
+    -fx-border-color: Black;
+}
+#name{
+    -fx-border-width: 0px;
+    -fx-font-size: 65px;
+    -fx-alignment: center;
+}
+#name2{
+    -fx-border-width: 0px;
+    -fx-font-size: 65px;
+    -fx-alignment: center;
+}
+#player1Name {
+    -fx-border-width: 0px;
+    -fx-font-size: 65px;
+    -fx-alignment: center;
+}
+#player2Name {
+    -fx-border-width: 0px;
+    -fx-font-size: 65px;
+    -fx-alignment: center;
+}
+
+

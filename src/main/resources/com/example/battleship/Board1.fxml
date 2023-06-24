@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.battleship.BoardGUI">
+   <children>
+      <Button fx:id="exitGame" layoutX="702.0" layoutY="94.0" mnemonicParsing="false" onAction="#onExitGame" prefHeight="45.0" prefWidth="130.0" text="EXIT GAME">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Label fx:id="name" layoutX="589.0" layoutY="-1.0" prefHeight="74.0" prefWidth="387.0" text="Player 1" textAlignment="CENTER">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Label>
+      <Button fx:id="nextButton" layoutX="686.0" layoutY="586.0" mnemonicParsing="false" onAction="#onNext" prefHeight="65.0" prefWidth="200.0" text="Next">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Pane fx:id="gameBoard" layoutX="588.0" layoutY="174.0" prefHeight="400.0" prefWidth="400.0" style="-fx-border-color: black;" />
+      <Pane fx:id="shipContainer" layoutX="588.0" layoutY="666.0" prefHeight="112.0" prefWidth="400.0" style="-fx-border-color: black;">
+         <children>
+            <Button fx:id="battleshipButton" layoutX="6.0" layoutY="9.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="112.0" text="Battleship X 1" />
+            <Button fx:id="destroyerButton" layoutX="143.0" layoutY="9.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="110.0" text="Destroyer X 2" />
+            <Button fx:id="cruiserButton" layoutX="281.0" layoutY="9.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="110.0" text="Cruiser X 3" />
+            <Button fx:id="submarineButton" layoutX="143.0" layoutY="67.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="110.0" text="Submarine X 4" />
+         </children>
+      </Pane>
+      <Label layoutX="560.0" layoutY="174.0" prefHeight="40.0" prefWidth="21.0" text="1">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="560.0" layoutY="214.0" prefHeight="40.0" prefWidth="22.0" text="2" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="560.0" layoutY="254.0" prefHeight="40.0" prefWidth="22.0" text="3" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="560.0" layoutY="294.0" prefHeight="40.0" prefWidth="22.0" text="4" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="560.0" layoutY="334.0" prefHeight="40.0" prefWidth="22.0" text="5" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="560.0" layoutY="374.0" prefHeight="40.0" prefWidth="22.0" text="6" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="560.0" layoutY="414.0" prefHeight="40.0" prefWidth="22.0" text="7" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="560.0" layoutY="454.0" prefHeight="40.0" prefWidth="22.0" text="8" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="560.0" layoutY="494.0" prefHeight="40.0" prefWidth="22.0" text="9" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="560.0" layoutY="534.0" prefHeight="40.0" prefWidth="22.0" text="10" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="593.0" layoutY="142.0" prefHeight="26.0" prefWidth="40.0" text="A">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="633.0" layoutY="142.0" prefHeight="30.0" prefWidth="40.0" text="B" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="673.0" layoutY="142.0" prefHeight="30.0" prefWidth="40.0" text="C" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="713.0" layoutY="142.0" prefHeight="30.0" prefWidth="40.0" text="D" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="753.0" layoutY="142.0" prefHeight="30.0" prefWidth="40.0" text="E" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="793.0" layoutY="142.0" prefHeight="30.0" prefWidth="40.0" text="F" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="833.0" layoutY="142.0" prefHeight="30.0" prefWidth="40.0" text="G" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="868.0" layoutY="142.0" prefHeight="30.0" prefWidth="40.0" text="H" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="908.0" layoutY="142.0" prefHeight="30.0" prefWidth="40.0" text="I" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="948.0" layoutY="142.0" prefHeight="30.0" prefWidth="40.0" text="J" textAlignment="JUSTIFY">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Pane layoutX="125.0" layoutY="172.0" prefHeight="400.0" prefWidth="387.0" style="-fx-border-color: Black;">
+         <children>
+            <Label layoutX="2.0" layoutY="17.0" prefHeight="31.0" prefWidth="370.0" text="CONTROLS">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="3.0" layoutY="48.0" prefHeight="46.0" prefWidth="370.0" text="1) Select any ship and click mouse left click on the board to Place it!" />
+            <Label layoutX="4.0" layoutY="82.0" prefHeight="46.0" prefWidth="361.0" text="2) Right Click on any placed ship to Remove it!" />
+            <Label layoutX="4.0" layoutY="117.0" prefHeight="46.0" prefWidth="361.0" text="3) After Placing all the ship left click on any ship to Rotate it!" />
+            <Label layoutX="2.0" layoutY="179.0" prefHeight="30.0" prefWidth="370.0" text="Notes">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="5.0" layoutY="207.0" prefHeight="31.0" prefWidth="361.0" text="1) If a ship doesn't place on board, click try a different position " />
+            <Label layoutX="18.0" layoutY="238.0" prefHeight="31.0" prefWidth="170.0" text="(the placement may be invalid)" />
+            <Label layoutX="4.0" layoutY="269.0" prefHeight="31.0" prefWidth="361.0" text="2) You can't edit the ship after hitting next button" />
+            <Label layoutX="3.0" layoutY="305.0" prefHeight="31.0" prefWidth="361.0" text="3) You can only press next button after placing all your ships!" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

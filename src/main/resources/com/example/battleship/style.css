@@ -1,0 +1,25 @@
+.root{
+background-color: white;
+}
+.button{
+-fx-font: "Roboto Remix";
+    -fx-alignment: center;
+    -fx-font-size: 40px;
+    -fx-background-color: white;
+    -fx-border-width: 2px;
+    -fx-border-color: black;
+    cursor: pointer;
+
+}
+.button:hover {
+    -fx-background-color: #808080;
+}
+#exitGameButton{
+
+}
+.label{
+    -fx-font: 3m "Roboto Remix";
+    -fx-alignment: center;
+    -fx-border-color: black;
+    -fx-border-width: 3px;
+}
